@@ -1,0 +1,97 @@
+.contact-image-container {
+	@include breakpoint($lg) {
+		width: 380px;
+	}
+}
+.contact-instruct {
+	margin-top: 50px
+}
+.contact-label {
+	display: block;
+	@include font(22px, $dark-grey);
+	// margin-bottom: 15px;
+}
+textarea {
+	// overflow: hidden;
+}
+#contact {
+	.input-group {
+		margin-bottom: 10px;
+		&:last-of-type {
+			margin-bottom: 20px;
+		}
+		.placeholder {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			width: 100%;
+			background: transparent;
+			color: $p-link;
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			  color: $placeholder;
+			  font-weight: 300;
+			  font-size: 20px;
+			  line-height: 40px;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+			  color: $placeholder;
+			  font-weight: 300;
+			  font-size: 20px;
+			  line-height: 40px;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+			  color: $placeholder;
+			  font-weight: 300;
+			  font-size: 20px;
+			  line-height: 40px;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+			  color: $placeholder;
+			  font-weight: 300;
+			  font-size: 20px;
+			  line-height: 40px;
+			}
+			// textarea
+		}
+	}
+}
+.error {
+    color: #990000;
+}
+.form-dash {
+	float:right;
+	width: 400px;
+}
+.parsley-errors-list {
+	position: relative;
+}
+.parsley-custom-error-message {
+	position: absolute;
+	font-size: 13px;
+	color: $p-link;
+}
+
+.contact-form {
+	input,
+	textarea {
+		line-height: 160%;
+		text-shadow: 0px 0px 0px #000;
+		// -webkit-text-fill-color: transparent;
+	}
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder{
+			text-shadow: none;
+			-webkit-text-fill-color: initial;
+	}
+}
+
+#contactBannerImages {
+	height: 120px;
+
+	@media (min-width: 992px) {
+		height: 250px;
+	}
+
+	@media (min-width: 1200px) {
+		height: 380px;
+	}
+}

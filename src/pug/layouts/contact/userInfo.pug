@@ -1,0 +1,26 @@
+section.section
+	.container
+		.row
+			.col-12.col-lg-6
+				.dash-animation.d-none.d-lg-block
+					include ../../components/dashes.pug
+					+dashes("dash-container-contact")
+			.col-12.col-lg-6
+				form#contact.contact-form(data-parsley-validate)
+					.input-group
+						label.contact-label Let's start with your name.
+						input.placeholder(type="text" placeholder="Type your name" name="name" id="name" data-parsley-required data-parsley-error-message="Please enter your name" autofocus)
+						//- div#name-error.error
+					.input-group
+						label.contact-label Where do we ring you?
+						input.placeholder(type="tel" placeholder="Your contact number" name="phone" id="phone" data-parsley-required data-parsley-length="[10, 10]" data-parsley-type="number" data-parsley-error-message="Please insert a valid 10 digit phone number")
+						//- div#phone-error.error
+					.input-group
+						label.contact-label Where could we email you?
+						input.placeholder(placeholder="Your email address" type="email" name="email" id="email" tabindex="3" autofocus data-parsley-type="email" data-parsley-required data-parsley-error-message="Please insert a valid email id")
+						//- div#email-error.error
+					.input-group
+						label.contact-label Tell us your query.
+						textarea.placeholder#query(placeholder="Your message" col="6" name="query")
+						//- div#email-error.error
+					input.btn.btn--shadow(type="submit" value="Get in touch")

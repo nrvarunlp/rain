@@ -1,0 +1,47 @@
+.footer-section{
+	background-image: url("../img/illustrations/footer-waves.png");
+	background-size: cover;
+	background-color: rgba(0, 139, 230, 0.3);
+	padding:40px 0;
+	@media(min-width:$md){
+		padding:60px 0;
+	}
+	@media(min-width:$lg){
+		padding:80px 0;
+	}
+}
+.footer-list{
+	&__item{
+		font-size:16px;
+		line-height: 26px;
+		margin-bottom: 10px;
+		@media(min-width:$sm){
+			margin-bottom: 0 ;
+		}
+		@media(min-width:$lg){
+			font-size:18px;
+			line-height: 28px;
+		}
+	}
+}
+.footer-items-blk{
+	margin-top: 50px;
+	flex-direction:column;
+	@media(min-width:$sm){
+		flex-direction:row;
+		justify-content: space-between;
+	}
+	li.footer-blk-item{
+		margin-bottom: 30px;
+		@media(min-width:$sm){
+			margin-bottom: 0;
+		}
+		&:last-child{
+			margin-bottom:0;
+			text-align: left;
+			@media(min-width:$md){
+				text-align: right;
+			}
+		}
+	}
+}

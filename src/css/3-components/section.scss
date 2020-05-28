@@ -1,0 +1,113 @@
+.section {
+	@media (max-width: 767px) {
+		// padding:40px 0;
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+
+	@media (min-width: $sm) and (max-width: 991px) {
+		padding: 50px 0;
+	}
+	// @media(min-width: $md){
+	// 	padding:60px 0;
+	// }
+	// @media(min-width: $xl){
+	// 	padding:70px 0;
+	// }
+
+	&--100vh {
+		padding: 80px 0;
+
+		@media (min-width: $lg) {
+			padding: 90px 0;
+
+			display: flex;
+			.container {
+				margin: auto;
+			}
+			min-height: 100vh;
+		}
+	}
+
+	&--podcast-detail {
+		padding: 80px 0;
+
+		@media (min-width: $lg) {
+			padding: 160px 0 80px 0;
+		}
+	}
+}
+
+.section-bg {
+	background: $section-bg;
+}
+
+.section-heading {
+	font-size: 28px;
+	line-height: 38px;
+	letter-spacing: 1.2px;
+	// text-align: left !important;
+	@media (min-width: $sm) {
+		font-size: 32px;
+		line-height: 42px;
+		// text-align: center !important;
+	}
+	@media (min-width: $lg) {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	&--margin {
+		margin-bottom: 30px;
+		@media (min-width: $sm) {
+			margin-bottom: 40px;
+		}
+		@media (min-width: $md) {
+			margin-bottom: 50px;
+		}
+		@media (min-width: $lg) {
+			margin-bottom: 60px;
+		}
+		@media (min-width: $xl) {
+			margin-bottom: 70px;
+		}
+	}
+	&--performance {
+		@include breakpoint($lg-l) {
+			margin-bottom: 40px;
+		}
+	}
+}
+.section-subtext {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1.2px;
+	@media (min-width: $md) {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	@media (min-width: $lg) {
+		font-size: 22px;
+		line-height: 32px;
+	}
+}
+
+.banner-illustration {
+	height: 220px;
+	width: auto;
+	max-width: 100%;
+
+	@media (min-width: $sm) {
+		height: 240px;
+	}
+
+	@media (min-width: $md) {
+		height: 260px;
+	}
+
+	@media (min-width: $lg) {
+		height: 290px;
+	}
+}

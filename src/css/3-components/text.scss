@@ -1,0 +1,17 @@
+.text-desc {
+	color: #666666;
+	font-weight: 300;
+	font-family: $heebo;
+	font-size: 14px;
+	line-height: 28px;
+
+	@media (min-width: $sm) {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	@media (min-width: $md) {
+		font-size: 18px;
+		line-height: 32px;
+	}
+}

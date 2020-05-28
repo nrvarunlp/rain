@@ -1,0 +1,32 @@
+.how-image-container {
+	height: 140px;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+	@include breakpoint($sm) {
+		margin-bottom: 25px;
+	}
+	img {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px;
+		height: auto;
+	}
+}
+.how-heading {
+	@extend .team-member__name;
+}
+.how-details {
+	@extend .team-member__desgination;
+}
+.how-container {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.how-list-container {
+	@include breakpoint($lg-l) {
+		margin-bottom: 60px;
+	}
+}

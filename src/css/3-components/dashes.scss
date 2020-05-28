@@ -1,0 +1,134 @@
+.dash-container {
+	margin-left: 80px;
+	// margin-top: 200px;
+  /*   border:solid; */
+	transform: rotate(-45deg);
+	width: 500px;
+	display:flex;
+	flex-direction: column;
+	&--vision_blue {
+	  width: 60px;
+	  height: 60px;
+		
+		@media (min-width: $sm) {
+			width: 115px;
+	  	height:115px;
+		}
+	  margin-bottom: 30px;
+	  margin-left: 0;
+	  .circle {
+		width: 20px;
+		height: 20px;
+		margin-bottom: 10px;
+	  }
+	  .dash-lg {
+		  width: 85%;
+		  height: 20px;
+	  }
+	  .dash-connect {
+		  width: 50%;
+		  height: 15px;
+	  }
+	  .dash-md {
+		  width: 65%;
+		  height: 20px;
+		  margin-top: 7px;
+	  }
+	}
+	&--vision_how {
+	  @include breakpoint($sm-max) {
+		margin-left: auto;
+		margin-right:auto;
+	  }
+	}
+  }
+  .dash-container-contact {
+	  div {
+		background: $section-bg;
+	  }
+  }
+  .bg {
+	   background: #e4fcff;
+	}
+  .circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto 40px auto;
+  }
+  .dash-lg {
+	width: 420px;
+	height: 90px;
+	border-radius: 50px;
+  }
+  .dash-connect {
+	width: 160px;
+	height: 30px;
+	margin: 0 auto 0 auto;
+  }
+  .dash-md {
+	width: 320px;
+	height: 90px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-left: auto;
+  /*      margin-right: auto */
+  }
+  .dash-left {
+	 margin-left: auto;
+  }
+  .dash-contianer-coming {
+	margin: 0 auto 0 auto;
+	margin-bottom: 60px;
+	width: 150px;
+	// transform: translateX(-50%) rotate(-45deg);
+	// left: 50%;
+	top: -45px;
+	z-index: -1;
+	@include breakpoint($sm) {
+		position: absolute;
+		width:180px;
+		transform: translateX(-50%) rotate(-45deg);
+		left: 50%;
+	}
+	@include breakpoint($lg-l) {
+		position: static;
+		transform: rotate(-45deg);
+	}
+	div {
+		background: $section-bg;
+	}
+	.circle {
+		width: 20px;
+		height: 20px;
+		margin-bottom: 12px;
+		@include breakpoint($sm) {
+		  width: 25px;
+		  height: 25px;
+		  margin-bottom: 15px;
+		}
+	}
+	.dash-lg {
+		width: 85%;
+		height: 20px;
+		@include breakpoint($sm) {
+		  height: 25px;
+		}
+	}
+	.dash-connect {
+		width: 50%;
+		height: 14px;
+		@include breakpoint($sm) {
+		  height: 18px;
+		}
+	}
+	.dash-md {
+		width: 65%;
+		height: 20px;
+		margin-top: 10px;
+		@include breakpoint($sm) {
+		  height: 25px;
+		  margin-top: 12px;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+/*screen variables while using min-width media queries*/
+$sm: 768px;
+$md: 992px;
+$md-l: 1024px;
+$lg: 1200px;
+$lg-l: 1400px;
+$xl: 1600px;
+$xxl: 1900px;
+// $4k: 2200px;
+/*END: screen variables*/
+
+/*screen variables while using max-width media queries*/
+$sm-max: max-width 767px;
+$md-max: max-width $md - 1;
+$md-l-max: max-width $md-l - 1;
+$lg-max: max-width $lg - 1;
+$lg-l-max: max-width $lg-l - 1;
+$xl-max: max-width $xl - 1;
+$xxl-max: max-width $xxl - 1;
+/*END: screen variables*/
+
+$black: #000000;
+$grey: #666666;
+$white: #ffffff;
+$underline-color: #9ef3fc;
+$line-animation: rgba(90, 0, 255, 0.2);
+$p-link: #5a00ff;
+$dark-grey: #333333;
+$placeholder: #bbbbbb;
+$light-grey: #f2f1f1;
+$section-bg: #fbfbfb;
+
+
+/*screen variables while using min-width media queries*/

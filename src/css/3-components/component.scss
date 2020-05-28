@@ -1,0 +1,81 @@
+.component {
+	color: #ff0000;
+}
+.team-members-list {
+	position: relative;
+	&__item {
+		margin-bottom: 25px;
+		@media (min-width: $md) {
+			// padding-right: 40px;
+			margin-bottom: 20px;
+			position: relative;
+			&:before {
+				display: none;
+				@media (min-width: $md) {
+					position: absolute;
+					display: block;
+					top: -15px;
+					left: 27px;
+					content: " ";
+					background-image: url("../img/vector-img.png");
+					width: 259px;
+					height: 264px;
+					z-index: -1;
+				}
+			}
+		}
+		@media (min-width: $md) {
+			margin-bottom: 0;
+		}
+		figure {
+			margin: 0 auto;
+		}
+	}
+}
+.team-member {
+	margin-top: 10px;
+	&__name {
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.53px;
+		color: #333333;
+		font-weight: 400;
+		@media (min-width: $md) {
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+	&__desgination {
+		font-size: 16px;
+		line-height: 26px;
+		letter-spacing: 0.53px;
+		color: #333333;
+		font-weight: 300;
+
+		@media (min-width: $md) {
+			margin-top: 5px;
+		}
+	}
+
+	&__content {
+		display: flex !important;
+		align-items: center !important;
+	}
+
+	&__link {
+		&,
+		&:hover,
+		&:focus {
+			margin: 0 5px;
+			transition: all 0.5s ease;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+.bg-grey {
+	background-color: #fbfbfb;
+}

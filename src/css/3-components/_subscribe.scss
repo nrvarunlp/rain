@@ -1,0 +1,107 @@
+.custom-subscribe-form {
+	width: 100%;
+
+	input {
+		padding: 10px 25px;
+		border-radius: 5px 0 0 5px;
+		width: 70%;
+		background-color: #ececec;
+	}
+
+	&__form-wrapper {
+		width: 100%;
+		display: flex;
+		margin: 0 auto;
+
+		@media (min-width: 761px) {
+			width: 80%;
+		}
+
+		@media (min-width: 1024px) {
+			width: 70%;
+		}
+	}
+
+	button {
+		width: 40%;
+		padding: 15px;
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0 0 0 -10px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+
+		@media (min-width: $sm) {
+			font-size: 16px;
+			padding: 15px 30px;
+		}
+
+		@media (min-width: $md) {
+			font-size: 18px;
+		}
+	}
+}
+
+.user-data {
+	margin: 0 0 30px 0;
+
+	&__title {
+		color: #000000;
+		font-family: $heebo;
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: capitalize;
+		margin: 0 0 10px 0;
+
+		span {
+			margin: 0 20px 10px 0;
+		}
+
+		@media (min-width: $sm) {
+			font-size: 18px;
+		}
+
+		@media (min-width: $md) {
+			font-size: 20px;
+		}
+
+		@media (min-width: $lg) {
+			font-size: 22px;
+		}
+	}
+
+	&__link {
+		width: 16px;
+		height: 16px;
+	}
+
+	&__role {
+		color: #000000;
+		font-size: 12px;
+		font-weight: 300;
+
+		@media (min-width: $sm) {
+			font-size: 14px;
+		}
+
+		@media (min-width: $md) {
+			font-size: 16px;
+		}
+	}
+}
+
+.team-bg-shape {
+	position: relative;
+
+	&:before {
+		position: absolute;
+		display: block;
+		top: -15px;
+		left: 27px;
+		content: " ";
+		background-image: url(../img/vector-img.png);
+		width: 259px;
+		height: 264px;
+		z-index: -1;
+	}
+}

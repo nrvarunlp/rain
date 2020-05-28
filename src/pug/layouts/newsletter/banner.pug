@@ -1,0 +1,31 @@
+section.section.bg-grey.section--100vh
+    .container
+        .row
+            .col-sm-6
+                h1.heebo-eb.heading.heading--sm.line-animation-neighbour.text-capitalize
+                    div
+                        span.underline-wrapper RainFund Newsletter
+                            span.underline.underline--sm#underline3
+
+                p.text-desc.mb-3 By clicking the subscribe button you will never miss :
+
+                ul.custom-list
+                    li
+                        p.text-desc Our thoughts on the stock markets, market development, quantitative trading and investing space
+                    li
+                        p.text-desc All recent podcast episodes from the past month
+                    li
+                        p.text-desc Trading strategies from experts
+                    li
+                        p.text-desc Sign up for the next RAIN training batch! Access to our upcoming courses and seminars on algorithmic trading.
+
+
+                form#subscribe-form.custom-subscribe-form.mt-4
+                    .d-flex
+                        .w-100.d-flex
+                            input#email(type="text", name="email" placeholder="Your e-mail address")
+                            button.btn.btn--shadow.font-white.w-50(type="submit") Subscribe Now
+
+            .col-sm-6.d-flex
+                .m-md-auto
+                    img.img-fluid.banner-illustration(src="./img/newsletter-illustration.svg" alt="")

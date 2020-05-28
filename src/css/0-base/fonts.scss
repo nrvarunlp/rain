@@ -1,0 +1,23 @@
+$heebo: 'Heebo', sans-serif;
+
+.heebo-lt {
+	font-family: $heebo;
+	font-weight: 300;
+}
+.heebo-reg {
+	font-family: $heebo;
+	font-weight: 400;
+}
+.heebo-eb {
+	font-family: $heebo;
+	font-weight: 800;
+}
+
+@mixin font($font-size, $font-color) {
+	font-size: $font-size;
+	color: $font-color;
+	line-height: $font-size + 10;
+	@media (min-width: 992px) {
+		line-height: $font-size + 18;
+	}
+}

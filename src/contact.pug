@@ -1,0 +1,17 @@
+doctype html
+html
+		include ./pug/base/head.pug
+		title CONTACT
+		body
+			main
+				include ./pug/base/navigationContact.pug
+				#fullpageContact
+					include ./pug/layouts/contact/rainInfo.pug
+					include ./pug/layouts/contact/userInfo.pug
+					include ./pug/layouts/homepage/footer.pug
+			include ./pug/base/scripts.pug
+			script(src="./animation/jsonAnim.min.js")
+			include ./pug/layouts/contact/contact-form.pug
+			//- script(src="./js/plugins/jquery.min.js")
+			//- script(src="./js/plugins/jquery.fullpage.min.js")
+			//- script(src="./js/main.js")

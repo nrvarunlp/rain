@@ -1,0 +1,39 @@
+section.section.section--100vh#podcastEpisodes
+	.container
+		.row
+			.col-12
+				h1.heebo-eb.heading.heading--sm.line-animation-neighbour
+					div
+						span.underline-wrapper Latest Podcast
+							span.underline.underline--sm
+						span.underline-wrapper.pl-sm-2 Episodes
+							span.underline.underline--sm
+
+		.row
+			.col-12
+				include ../../mixins/podcast.pug
+				ul.podcast-list.row
+					li.col-sm-6.col-md-4
+						+podcast(31, "The Four Factors Which Led to Rain's Founding",  "May 3, 2020", "./img/podcast-1.png")
+
+					li.col-sm-6.col-md-4
+						+podcast(32, "The Evolution of Algorithmic Trading in India",  "May 3, 2020", "./img/podcast-2.png")
+
+					li.col-sm-6.col-md-4
+						+podcast(33, "A Brief Overview of Derivative Trading Products",  "May 3, 2020", "./img/podcast-3.png")
+
+					li.col-sm-6.col-md-4
+						+podcast(34, "The Four Factors Which Led to Rain's Founding",  "May 3, 2020", "./img/podcast-4.png")
+
+					li.col-sm-6.col-md-4
+						+podcast(35, "The Evolution of Algorithmic Trading in India",  "May 3, 2020", "./img/podcast-5.png")
+
+					li.col-sm-6.col-md-4
+						+podcast(36, "A Brief Overview of Derivative Trading Products",  "May 3, 2020", "./img/podcast-6.png")
+
+
+
+		.row
+			.col-12.text-center
+				a(href="javascript:void(0);").btn.btn--outline.p-3
+					| Show More

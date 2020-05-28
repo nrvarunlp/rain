@@ -1,0 +1,452 @@
+#fullpage[style] {
+	position: absolute !important;
+	top: 0 !important;
+}
+#fullpageContact[style] {
+	position: absolute !important;
+	top: 0 !important;
+}
+
+// .nav-overlap {
+// 	margin-top: 40px;
+// 	@include breakpoint($lg) {
+// 		margin-top: 70px;
+// 	}
+// }
+// .fp-tableCell[style] {
+// 	vertical-align: top !important;
+// }
+.coming-soon-container {
+	.fp-tableCell[style] {
+		vertical-align: bottom !important;
+	}
+}
+.heading {
+	@include breakpoint($lg) {
+		@include font(65px, #000);
+	}
+	&--lg {
+		@include font(36px, #000);
+		@include breakpoint($lg) {
+			@include font(65px, #000);
+		}
+	}
+	&--sm {
+		@include font(32px, #000);
+		@include breakpoint($lg) {
+			@include font(45px, #000);
+		}
+	}
+	&--centered {
+		@include breakpoint($lg) {
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	&--greybg {
+		background: $section-bg;
+	}
+	&--how {
+		text-align: center;
+		@include breakpoint($sm) {
+			padding-right: 140px;
+			text-align: left;
+		}
+	}
+}
+.underline-wrapper {
+	position: relative;
+	// margin-right: 23px;
+}
+.underline {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: $underline-color;
+	z-index: -1;
+	transition: all 1s ease;
+
+	@media (min-width: 992px) {
+		width: 0;
+	}
+
+	&--lg {
+		height: 10px;
+		bottom: 11px;
+		@include breakpoint($lg) {
+			bottom: 19px;
+			height: 15px;
+		}
+	}
+	&--sm {
+		height: 8px;
+		bottom: 9px;
+		@include breakpoint($lg) {
+			bottom: 14px;
+			height: 12px;
+		}
+	}
+}
+// .psuedo-line {
+// 	position: relative;
+// 	&:before {
+// 		position: absolute;
+// 		left: 0;
+
+// 	}
+// }
+
+.banner-image {
+	width: 300px;
+	height: 280px;
+	@include breakpoint($lg) {
+		width: 700px;
+		height: 500px;
+		float: right;
+	}
+	&--contact {
+		width: 455px;
+		height: 300px;
+	}
+}
+.robot-image {
+	width: 320px;
+	height: 320px;
+	opacity: 1;
+	margin: 0 auto 0 auto;
+	@include breakpoint($lg) {
+		opacity: 0;
+		width: 650px;
+		// height: 440px;
+		float: right;
+		height: 490px;
+	}
+	&--contact {
+		width: 455px;
+		height: 300px;
+	}
+}
+// #robot-image {
+// 	height: 530px;
+// }
+.line-animation {
+	display: none;
+	@include breakpoint($lg) {
+		display: block;
+		position: absolute;
+		height: 435px;
+		width: 1px;
+		background: $line-animation;
+		left: 80px;
+		top: 50%;
+		transform: translateY(-250%);
+		opacity: 0;
+		transition: all 1s ease-out;
+	}
+	&--why {
+		@include breakpoint($lg) {
+			z-index: 9;
+			position: relative;
+			height: 70px;
+			left: 80px;
+			opacity: 1;
+		}
+	}
+	&--team {
+		@include breakpoint($lg-l-max) {
+			display: none;
+		}
+		@include breakpoint($lg-l) {
+			display: block;
+			left: 0;
+		}
+	}
+}
+#home-banner-arrow {
+	transition: all ease 2s;
+}
+
+.line-animation-neighbour {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	@include breakpoint($lg) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	&__contact {
+		margin-top: 20px;
+
+		@media (min-width: $sm) {
+			padding-right: 150px;
+		}
+	}
+}
+.intro-image-container {
+	// margin-top: 25px;
+	@media (min-width: 576px) and (max-width: 767px) {
+		padding: 0 30px;
+	}
+	@include breakpoint($sm) {
+		margin-top: 0;
+	}
+	@include breakpoint($lg) {
+		padding: 40px 0 40px 0;
+	}
+}
+.para {
+	letter-spacing: 0.53px;
+	@include font(18px, $grey);
+	@include breakpoint($lg) {
+		@include font(22px, $grey);
+	}
+}
+//clients-section-styles
+.client-pattern {
+	background: url(../img/backgrounds/blue_pattern.png);
+	// background-color: linear-gradient(45deg, #378ee7 0%, #3394f8 100%);
+	// background-color:
+}
+.clients-blk {
+	padding: 45px 15px;
+	@media (min-width: $md) {
+		padding: 55px 15px;
+	}
+	@media (min-width: $lg) {
+		padding: 85px 15px;
+	}
+	@media (min-width: $xl) {
+		padding: 100px 15px;
+	}
+}
+.client-list {
+	margin-top: 25px;
+	@media (min-width: $md) {
+		margin-top: 40px;
+	}
+	@media (min-width: $lg) {
+		margin-top: 60px;
+	}
+	@media (min-width: $xl) {
+		margin-top: 80px;
+	}
+	&__item {
+		margin-bottom: 35px;
+		&:last-child {
+			@media (min-width: 768px) {
+				// margin-bottom: 0;
+			}
+		}
+		@media (min-width: $lg) {
+			margin-bottom: 30px;
+		}
+	}
+}
+.subheading-margin {
+	margin-bottom: 10px;
+	@media (min-width: $md) {
+		margin-bottom: 15px;
+	}
+}
+
+.coming-soon-img {
+	display: block;
+	margin-top: 5px;
+	@media (min-width: $md) {
+		margin-top: 50px;
+	}
+}
+.banner-container {
+	@media (min-width: 576px) and (max-width: 767px) {
+		padding: 0 30px;
+	}
+	@include breakpoint($lg) {
+		padding-top: 30px;
+	}
+}
+// .why-container {
+// 	@include breakpoint($lg) {
+// 		padding-top: 100px;
+// 	}
+// }
+.performance-container {
+	@include breakpoint($lg) {
+		padding-top: 60px;
+	}
+}
+.team-container {
+	@include breakpoint($lg) {
+		padding-top: 20px;
+	}
+}
+
+.clients-container {
+	@include breakpoint($lg) {
+		padding-top: 80px;
+	}
+}
+.contact-container {
+	@include breakpoint($lg) {
+		padding-top: 120px;
+	}
+}
+.p-link {
+	color: $p-link;
+}
+.arrow {
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+	transition: all ease-out 1s;
+
+	&--nav {
+		position: absolute;
+		bottom: -30px;
+		left: 50%;
+		border: solid $p-link;
+		border-width: 0 3px 3px 0 !important;
+		border-radius: 3px;
+	}
+
+	&--btn {
+		border: solid #fff;
+		border-width: 0 3px 3px 0 !important;
+		border-radius: 3px;
+		margin-left: 20px;
+		margin-top: -2px;
+	}
+
+	&--down {
+		opacity: 0;
+		transform: translateX(-50%) rotate(45deg);
+	}
+	&--right {
+		transform: translateX(-50%) rotate(-45deg);
+	}
+}
+//graph styles
+.our-performance-blk {
+	margin-top: 25px;
+	@media (min-width: $md) {
+		margin-top: 0;
+	}
+	h2 {
+		@media (max-width: 767px) {
+			text-align: left !important;
+		}
+	}
+}
+#chart-container {
+	min-width: 300px;
+	height: 380px;
+	margin: 0 auto;
+	width: 100%;
+	@media (min-width: 400px) {
+		min-width: 380px;
+	}
+	@media (min-width: 576px) {
+		min-width: 540px;
+	}
+	@include breakpoint($sm) {
+		min-width: 720px;
+		width: auto;
+	}
+	@include breakpoint($md) {
+		min-width: 960px;
+	}
+	@include breakpoint($lg) {
+		min-width: 1140px;
+		height: 390px;
+	}
+}
+.graph-blk {
+	width: 100%;
+}
+.graph-option {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #000;
+	padding: 5px 8px;
+	background: transparent;
+	cursor: pointer;
+	@include breakpoint($md) {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+.graph-status-blk {
+	@media (max-width: 767px) {
+		margin-top: 30px;
+	}
+	margin-bottom: 25px;
+	.active {
+		background: $light-grey;
+	}
+}
+// .status-one{
+// 	margin-right:40px;
+// 		@media(min-width:$md){
+// 			margin-right:60px;
+// 		}
+// 	&:before{
+// 		background-color: #47ebff;
+// 	}
+// }
+// .status-one,.status-two{
+// 	&:before{
+// 		position: absolute;
+// 		width:16px;
+// 		height:16px;
+// 		border-radius:1px;
+// 		left:-30px;
+// 		top:50%;
+// 		display: block;
+// 		content:" ";
+// 		transform:translate(0,-9px);
+// 	}
+// }
+// .status-two{
+// 	&:before{
+// 	background-color: #5a00ff;}
+// }
+// .graph-status-blk{
+// 	@media(max-width:767px){
+// 		margin-top:30px;
+// 	}
+// }
+.team-image {
+}
+.team-member {
+	text-align: center;
+}
+.why-rain {
+	@media (min-width: 992px) {
+		opacity: 0;
+	}
+}
+.coming-soon-text {
+	@include breakpoint($sm-max) {
+		margin-bottom: 40px;
+	}
+}
+
+.team-image-wrapper {
+	width: 75%;
+	@include breakpoint($sm) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+.footer-logo {
+	width: 140px;
+}
+
+.linkedin-icon {
+	width: 20px;
+	height: 20px;
+}
