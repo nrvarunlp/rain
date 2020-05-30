@@ -1,0 +1,39 @@
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="dash-animation d-none d-lg-block">
+                    <div class="dash-container dash-container-contact">
+                      <div class="bg circle"></div>
+                      <div class="bg dash-lg dash-left"></div>
+                      <div class="bg dash-connect"></div>
+                      <div class="bg dash-lg dash-right"></div>
+                      <div class="bg dash-md"></div>
+                    </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <form class="contact-form" id="contact" data-parsley-validate="data-parsley-validate">
+          <div class="input-group">
+            <label class="contact-label">Let's start with your name.</label>
+            <input class="placeholder" type="text" placeholder="Type your name" name="name" id="name" data-parsley-required="data-parsley-required" data-parsley-error-message="Please enter your name" autofocus="autofocus"/>
+          </div>
+          <div class="input-group">
+            <label class="contact-label">Where do we ring you?</label>
+            <input class="placeholder" type="tel" placeholder="Your contact number" name="phone" id="phone" data-parsley-required="data-parsley-required" data-parsley-length="[10, 10]" data-parsley-type="number" data-parsley-error-message="Please insert a valid 10 digit phone number"/>
+          </div>
+          <div class="input-group">
+            <label class="contact-label">Where could we email you?</label>
+            <input class="placeholder" placeholder="Your email address" type="email" name="email" id="email" tabindex="3" autofocus="autofocus" data-parsley-type="email" data-parsley-required="data-parsley-required" data-parsley-error-message="Please insert a valid email id"/>
+          </div>
+          <div class="input-group">
+            <label class="contact-label">Tell us your query.</label>
+            <textarea class="placeholder" id="query" placeholder="Your message" col="6" name="query"></textarea>
+          </div>
+          <input class="btn btn--shadow" type="submit" value="Get in touch"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -3,8 +3,8 @@ node_modules
 npm-debug.log
 Gemfile.lock
 
-dist
-/*.html
+# dist
+# /*.html
 
 !.gitkeep
 .db_thumb

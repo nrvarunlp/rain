@@ -1,0 +1,45 @@
+
+<script>
+  $('#contact').on('submit', function (e) {
+      // alert('submitting');
+      e.preventDefault();
+      if($('#contact').parsley().isValid()){
+          console.log("form valid");
+          careers_save();
+           $('#contact input[type="submit"]').addClass('disabled').attr('value','submitting...');
+      }
+  });
+  function careers_save() {
+      var form_data = new FormData();
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var phone = $("#phone").val();
+      var query = $("#query").val();
+      form_data.append('name', name);
+      form_data.append('email', email);
+      form_data.append('phone', phone);
+      form_data.append('query', query);
+      if ((name != "") && (email != "") && (phone != "")) {
+      $.ajax({
+      url: "careers_save.php",
+      dataType: 'text', // what to expect back from the server
+      cache: false,
+      contentType: false,
+      processData: false,
+      data: form_data,
+      type: 'post',
+          success: function (response) {
+          console.log('success');
+          $('#contact')[0].reset();
+          $('.career-success-msg').css('visibility', 'visible');
+          //- $('#contact').css('display','none');
+          $('.form-message-wrapper').addClass('active');
+          $('#contact input[type="submit"]').removeClass('disabled').attr('value','SUBMIT');
+          // setInterval(function () {
+          // 	$('.careersuccess-msg').css('visibility', 'hidden');
+          // }, 3000);
+          }
+      });
+      }
+  }
+</script>
