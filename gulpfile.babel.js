@@ -264,7 +264,7 @@ gulp.task("build", [
 	"pug",
 	"sass",
 	// "scss-lint",
-	"eslint",
+	// "eslint",
 	"bundle-js",
 	"images",
 	"fonts",
