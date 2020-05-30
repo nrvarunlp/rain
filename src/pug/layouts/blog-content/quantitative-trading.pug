@@ -1,0 +1,159 @@
+section.section.section--blog-content
+	.container.opacity-none.team-container
+		.row
+			h2.section-heading.w-100.text-center.section-heading--margin
+				span.underline-wrapper
+					| Blogs
+					span.underline.underline--sm
+		.row
+			.col-lg-8.offset-lg-2
+				h1.blog-heading The Subtle Art of Successful Quantitative Trading
+				img.blog-img3(src='images/blog4.jpeg', style='width:100%;')
+				p.para-blog2
+					| People often have a hard time understanding how the stock markets work and behave. What
+					| drives the stock price of a
+					| company? What is the foundation for that stock price, and how does one profit from that
+					| information?
+					br
+					| 								As our world evolves into one which fully embraces Artificial Intelligence and Machine
+					| 								Learning, we tend to prefer
+					| 								processes wherein we have full control over the outcome. In a fully autonomous self
+					| 								driving car, the error rate is not
+					| 								expected to be between 0 and 1. It is expected to be 0, full stop, end in point. That is
+					| 								why a marketplace (transaction
+					| 								facilitator) like a stock exchange can prove to be supremely frustrating for any sort of
+					| 								scientist or data driven
+					| 								individual to make sense of and consistently profit from. From a fund management
+					| 								standpoint, the words “consistency”
+					| 								and “profits” rarely, if ever, go hand in hand.
+					br
+					br
+					| 								That’s because there is a huge qualitative component behind the science of accurately
+					| 								picking stocks. And this qualitative
+					| 								component can make traders and, more specifically, quantitative traders (also known as
+					| 								“quants”) go mad and force them to
+					| 								rethink everything they know about everything.
+					br
+					br
+					| 								The stock markets can never be assumed to be “exact”, “definitively correct”, or “fully
+					| 								rational” by any means.
+					| 								For example: it’s well known that we, as humans, react differently to negative news than
+					| 								to positive news. This is
+					| 								precisely why news outlets prefer showing us bad news to good news, since we act with
+					| 								more emotion (click on more
+					| 								news articles) when reacting to bad news. In the stock markets, the same emotions are at
+					| 								play, which is why we
+					| 								oftentimes hear stories of very consistent, profitable companies get ravaged by negative
+					| 								news items, driving the
+					| 								stock price down swiftly.
+					br
+					br
+					| 								What makes the whole thing incredibly frustrating for a quant is in knowing that there
+					| 								is a science behind the process.
+					| 								The Scientific Process becomes an invaluable tool when it comes to the legitimization of
+					| 								a trading theorem. In that regard,
+					| 								trading is a Science. You start with an idea, and then attempt to turn it into a rules
+					| 								based system, which forms your
+					| 								hypothesis. You test the hypothesis by simulating it over past data (what Science calls
+					| 								an “experiment”, a trader calls
+					| 								a “back-test”). And voila: if the results are good enough, you think about trading the
+					| 								strategy live.
+					br
+					br
+					| 								But this is when things start to break down and the system does not work on live
+					| 								markets. What went wrong?
+					br
+					br
+					| 								Suppose I task myself with the following project: predict the price of Apple stock on
+					| 								1st January, 2019. How do you
+					| 								go about building an accurate predictive model?
+					br
+					| 								There are various means of doing this—or at least, attempting to do this. One involves
+					| 								using charts and drawing
+					| 								trend-lines. For example, I can look at the following:
+					br
+					br
+					img.blog-img3(src='images/0_HOpn8zNB33s-8nf9.png', style='width:100%;')
+					| 								Using a basic linear regression model, and knowing that today’s date is 9th Dec, 2018, I
+					| 								brush up on some high
+					| 								school algebra and derive the following:
+					br
+					br
+					| 								(Dec 9th price—Oct 9th price)/(60 days)
+					br
+					br
+					| 								= (168.49–215)/60 =-0.7751667,
+					br
+					br
+					| 								which is the rate of change, per day, over those 2 months. Therefore, I could assume
+					| 								that over the next 22 days
+					| 								(until Jan 1st, 2019), the stock price should fall about 22 points, so down to 146
+					| 								dollars per share.
+					br
+					| 								An important issue arises: is this model justified? Does it make sense to use such a
+					| 								model to price the company’s
+					| 								stock price on 1st January, 2019?
+					br
+					| 								The truth is: it depends on how evolved the market is, but if we assume that all
+					| 								inefficiencies have not yet been
+					| 								priced in, then yes, such a system can work. The quant would, naturally, have to conduct
+					| 								a rigorous back-test to
+					| 								see how the system would have performed in the past.
+					br
+					br
+					| 								What would such a back-test look like?
+					br
+					br
+					| 								Download historical tick-by-tick data (from a reliable data source)
+					br
+					| 								Setup a back-test environment
+					br
+					| 								Run a simulation through time wherein you buy Apple stock if the 2 month rate of change
+					| 								was above X, and X is
+					| 								in itself a variable spanning 0 to Y. Therefore, you are optimizing for X as well
+					br
+					| 								Measure the ROI and compare it to your desired result
+					br
+					br
+					| 								Assuming the back-test provided satisfactory results, a sophisticated quant could have a
+					| 								“Meta” algorithm running which selects the best strategies to run live. This “Meta”
+					| 								algorithm could be fully autonomous in nature; therefore, when a quant’s backtest is
+					| 								excellent, it has the ability of automatically getting deployed onto live markets.
+					br
+					br
+					| 								After that- it can work for an interim period of time, until it stops working.
+					br
+					br
+					| 								That’s the general nature of quantitative strategies. Based on the strategy’s
+					| 								back-tests, a quant can confidently make the proclamation that it statistically makes
+					| 								sense to go for an aggressive at-bat. At some point in time, however, that will cease to
+					| 								be the case.
+					br
+					br
+					| 								And this is where the work becomes less a science, and more an art.
+					br
+					br
+					| 								Going back to our original question: how do we account for situations when a back-test
+					| 								is proving to be exceptional in nature, yet fails in live markets? In these situations,
+					| 								the result could be due to bad timing: just at the point that you’re stumbling upon this
+					| 								strategy might be the same time that other quants are stumbling upon it as well (perhaps
+					| 								a data source that is being used for the strategy only recently became accessible). If
+					| 								that were the case, the “edge” that the back-test was relying upon ceases to exist.
+					br
+					br
+					| 								It could also be due to poor assumptions, which is more often the case. Often times,
+					| 								quants conduct backtests on “derived” data instead of raw data. Think of derived data as
+					| 								being chunks of data parsed together and presented in a more digestible form. Many
+					| 								Machine Learning powered strategies are of this nature, which is why ML powered
+					| 								strategies often times fail in the live markets.
+					br
+					br
+					| 								In the trading markets, context matters immensely. The nature of the backtest and the
+					| 								lens through which the backtest was conducted in matters. This is one of the primary
+					| 								reasons why quants must always seek out the qualitative nature of each strategy.
+					br
+					br
+					| 								There’s a good chance that it has some value.
+					br
+					br
+					| 								The author is a Cofounder at RAIN Technologies, an AI driven fund management company.

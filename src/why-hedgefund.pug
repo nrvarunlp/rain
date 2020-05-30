@@ -1,0 +1,15 @@
+doctype html
+html
+	include ./pug/base/head.pug
+	body
+		main
+			include ./pug/base/navigationContact.pug
+			include ./pug/layouts/blog-content/why.pug
+
+			include ./pug/components/subscribe.pug
+			include ./pug/layouts/homepage/footer.pug
+
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+		script(src="js/plugins/TweenMax.min.js")
+		script(defer src="./js/tweenAnimations.js")
+		script(defer src="./js/navigation.js")

@@ -6,13 +6,17 @@ $(document).ready(function () {
 	TweenMax.to(logo, 2, { autoAlpha: 1 });
 	tl.staggerFromTo(
 		$(".nav-list a"),
-		1.5,
+		1,
 		{ autoAlpha: 0, y: -200 },
 		{ autoAlpha: 1, y: 0 },
 		0.5
 	);
 
 	tl.play();
+
+	tl.eventCallback("onComplete", function () {
+		$(".section--blog-content .team-container").css("opacity", "1");
+	});
 
 	function animateUnderlines(section) {
 		if (window.Waypoint) {

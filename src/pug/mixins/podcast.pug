@@ -3,6 +3,9 @@ mixin podcast(count, title, time, img_src)
         .podcast__img-w
             img.podcast__img(src= img_src)
         .podcast__content
+            .d-flex.mb-3
+                img.podcast__play-btn(src="./img/play.svg" alt="")
+                img.podcast__wave-img(src="./img/wave.svg" alt="")
             p.podcast__count PODCAST# #{count}
             h4.podcast__title= title
             p.podcast__timestamp=time

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:300,400,800">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favicon/favicon.png">
+    <title>RAIN</title>
+  </head>
+  <body>
+    <main>
+      <header class="top-nav">
+        <div class="container">
+          <div class="nav-container"><a class="opacity-none" id="primary-logo" href="index.html" title="RAIN Fund"><img class="nav-logo" src="img/logo/header-logo.svg" alt="RAIN Fund"></a>
+            <button class="hamburg"><span class="icon-bar"></span><span class="icon-bar mobile-xs"></span><span class="icon-bar"></span></button>
+            <div class="side-nav">
+              <nav class="nav-options-container">
+                <ul class="nav-list">
+                  <li class="heebo-reg active"><a class="opacity-none text-uppercase" id="performance" href="index.html#performance!">performance</a></li>
+                  <li class="heebo-reg"><a class="opacity-none text-uppercase" id="vision" href="team.html">team</a></li>
+                  <li class="heebo-reg"><a class="opacity-none text-uppercase" id="vision" href="podcasts.html">podcast</a></li>
+                  <li class="heebo-reg"><a class="opacity-none text-uppercase" id="vision" href="vision.html">vision</a></li>
+                  <li class="heebo-reg"><a class="opacity-none text-uppercase" id="vision" href="blogs.html">blogs</a></li>
+                  <li class="heebo-reg guide"><a class="opacity-none text-uppercase" id="contact1" href="contact.html">contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section section--blog-content">
+        <div class="container opacity-none team-container">
+          <div class="row">
+            <h2 class="section-heading w-100 text-center section-heading--margin"><span class="underline-wrapper">Blogs<span class="underline underline--sm"></span></span></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <h1 class="blog-heading">Everything You Need to Know About The New Nifty Weekly Contract (Part 2/2)</h1><img class="blog-img3" src="images/blog2.png" style="width:100%;">
+              <p class="para-blog2">
+                In the previous article, we introduced the NSE Weekly Nifties product. As most traders in India know, NSE Nifty F&O products typically have
+                monthly expiration cycles. Each month, a new series of Futures and Options are launched. With the Weeklies, new contracts are issued each
+                week. Therefore, the lifespan of the contract is shortened from 4 weeks to 1 week.<br> From a pricing perspective, how does this change things?<br>Here’s the Nifty Dec 2018 Call Option for the 11000 strike price spanning an entire month — 30th November through 27th December. This was essentially the first major OTM strike<img class="blog-img" src="images/graph1.png" style="width:65%;"><br><span style="text-align:center; font-size:14px; color:#666;">The December 2018 12000 Call Option Spanning the Trading Month</span><br>While the Premium is going to expiry to zero, it does not decay at the same rate through the life-cycle. The Premium is made up of two components: its Intrinsic Value and its Time Value. In this case, as the Option is clearly OTM, there is no Intrinsic Value. The Time Value of the Option is 60 and decays to 0. The rate of decay is not linear; instead, the Option decays slowly at first, and the faster near the end of the month (assuming other variables hold constant).<br>Here are the four Nifty Weekly contracts going from the expiration on 14th Feb, to the expiration on 7th Mar, using the first major OTM contract.<img class="blog-img" src="images/graph2.png" style="width:65%;"><br><span style="text-align:center; font-size:14px; color:#666;">Week Number One</span><br><img class="blog-img" src="images/graph3.png" style="width:65%;"><br><span style="text-align:center; font-size:14px; color:#666;">Week Number Two</span><br><img class="blog-img" src="images/graph4.png" style="width:65%;"><br><span style="text-align:center; font-size:14px; color:#666;">Week Number Three</span><br><img class="blog-img" src="images/graph5.png" style="width:65%;"><br><span style="text-align:center; font-size:14px; color:#666;">Week Number Four</span><br>And keep in mind that these past two weeks of Nifty trading have been very choppy due to increasing tensions in Kashmir (while we will not discuss the Options pricing model in detail in this article, you should keep in mind that as general volatility increases, the likelihood of an Option going “in the money” increases; hence, the Premium shoots up)<br>A cursory look at the Weekly Nifty Option contract prices seems to suggest that prices decay with a different behavior profile than the regular monthly series. It also seems to suggest that many types of inter contract arbitrage plays should be possible, granted that this level of liquidity maintains and that traders continue to exploit the unique trading opportunities the Weeklies provide.<br>We will keep exploring trading strategies involving the new Nifty Weekly contract in futures articles. Stay tuned!<br>The author is a Cofounder at RAIN Technologies, an AI driven fund management company.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe-us section section--subscribe" id="subscribeNewsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h1 class="heebo-eb heading heading--sm line-animation-neighbour">
+                <div><span class="underline-wrapper">Subscribe to<span class="underline underline--sm" id="underlineSubscribe"></span></span></div>
+                <div><span class="underline-wrapper">our Newsletter<span class="underline underline--sm" id="underlineSubscribeNews"></span></span></div>
+              </h1>
+              <p class="text-desc mb-2 mb-md-3">Our free monthly newsletter, delivered right to your inbox. Each edition includes:</p>
+              <ul class="custom-list">
+                <li>
+                  <p class="text-desc">Note from Aseem and Raghu detailing their views on the stock markets</p>
+                </li>
+                <li>
+                  <p class="text-desc">All podcast episodes since the previous edition</p>
+                </li>
+                <li>
+                  <p class="text-desc">RAIN performance update</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7">
+              <div class="text-center mb-3 mb-sm-0"><img class="img-fluid banner-illustration" src="./img/subscribe-illustration.svg"></div>
+              <form class="custom-subscribe-form" id="subscribe-form">
+                <div class="d-flex">
+                  <div class="custom-subscribe-form__form-wrapper">
+                    <input id="email" type="text" name="email" placeholder="Your e-mail address" required>
+                    <button class="btn btn--shadow font-white w-50" type="submit">Subscribe Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section fp-auto-height fp-section fp-table fp-completely">
+        <div class="footer-section">
+          <div class="container">
+            <div class="row">
+              <ul class="footer-items-blk d-flex align-items-center col-12">
+                <li class="footer-blk-item col-8" style="margin: auto;">
+                  <ul class="footer-list d-flex flex-wrap justify-content-around" style="justify-content: flex-end;">
+                    <li class="footer-list__item"><a class="fa fa-facebook" style="font-size: 32px;color: white;" href="https://www.facebook.com/AlwaysMakeItRain/" target="_blank"><img src="./img/icons/fb.svg" style="height: 32px;width: 32px"></a></li>
+                    <li class="footer-list__item"><a class="fa fa-twitter" style="font-size: 32px;color: white;" href="https://twitter.com/techno_rain" target="_blank"><img src="./img/icons/twitter.svg" style="height: 32px;width: 32px"></a></li>
+                    <li class="footer-list__item"><a class="fa fa-linkedin" style="font-size: 32px;color: white;" href="https://in.linkedin.com/company/rain-technologies" target="_blank"><img src="./img/icons/linkedin.svg" style="height: 32px;width: 32px"></a></li>
+                    <li class="footer-list__item"><a class="fa fa-youtube" style="font-size: 32px;color: white;" href="https://www.youtube.com/channel/UCTgj1-Gs-112BSBe98IXSBw" target="_blank"><img src="./img/icons/youtube.svg" style="height: 32px;width: 32px"></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="footer-items-blk d-flex align-items-center col-12">
+                <li class="footer-blk-item col-sm-3 col-lg-2 text-center-sm"><a class="footer-logo" href="index.html"><img class="image" src="img/footer/footer-logo.svg" alt="RAIN Fund"></a></li>
+                <li class="footer-blk-item col-sm-6 col-lg-6">
+                  <ul class="footer-list d-flex flex-wrap justify-content-around">
+                    <li class="footer-list__item"><a class="text-uppercase font-white" href="index.html#performance!">performance</a></li>
+                    <li class="footer-list__item"><a class="text-uppercase font-white" href="team.html">team</a></li>
+                    <li class="footer-list__item"><a class="text-uppercase font-white" href="vision.html">vision</a></li>
+                    <li class="footer-list__item"><a class="text-uppercase font-white" target="_blank" href="blogs.html">blog</a></li>
+                    <!-- <li class="footer-list__item"><a class="text-uppercase font-white" target="_blank" href="https://rainfund.ai/schoolofquant/">soq</a></li>-->
+                    <li class="footer-list__item"><a class="text-uppercase font-white" href="contact.html">contact</a></li>
+                  </ul>
+                </li>
+                <li class="footer-blk-item col-sm-3 col-lg-2 text-right-lg text-center-sm"><a class="font-white" href="mailto:contact@rainfund.ai">contact@rainfund.ai</a></li>
+                <li class="footer-blk-item col-sm-3 col-lg-2 text-right-lg text-center-sm"><a class="font-white" href="privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/plugins/TweenMax.min.js"></script>
+    <script defer src="./js/tweenAnimations.js"></script>
+    <script defer src="./js/navigation.js"></script>
+  </body>
+</html>

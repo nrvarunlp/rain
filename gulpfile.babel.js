@@ -195,7 +195,7 @@ gulp.task("bundle-js", ["vendor-js"], () => {
 				)
 				.pipe(source(`${path.basename(file, ".js")}.js`))
 				.pipe(buffer())
-				.pipe(sourcemaps.init({ loadMaps: true }))
+				// .pipe(sourcemaps.init({ loadMaps: true }))
 				.pipe(uglify())
 				.pipe(sourcemaps.write("."))
 				.pipe(gulp.dest(paths.js.dest))

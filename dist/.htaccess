@@ -1,0 +1,26 @@
+# Aseem's rules
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^rainfun.ai$ [NC]
+#RewriteRule (.*) http://www.rainfund.ai/$1 [R=301,L] 
+
+#
+# Modified by Irshad - 30/06/18
+RewriteEngine On
+
+# Redirect www to non www https
+# RewriteCond %{SERVER_PORT} ^443
+RewriteCond %{HTTP_HOST} ^www.rainfund.ai$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://rainfund.ai/$1 [R=301,L]
+
+# Redirect http to https
+RewriteCond %{HTTPS} !on
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# redirect index.html to non-www version
+RewriteRule ^index\.(php|html?)$ https://rainfund.ai [R=301,L]

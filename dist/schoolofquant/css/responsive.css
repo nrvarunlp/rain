@@ -1,0 +1,152 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 1199px) {
+	#lessons .testimonials{ min-height:300px; }
+	.offer > .button{ font-size:15px; }
+}
+@media only screen and (max-width: 991px) {
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 30px 8px;
+    }
+	.mainmenu-area .logo h2 > img { width:40px; }
+	.mainmenu-area .logo h2{ font-size:24px; }	
+	 .anlge-bg{ background-position: 0 100%; }
+	 .caption-slider .carousel-indicators li{ padding-right:10px; }
+	 .caption-slider .carousel-indicators li strong{ font-size:14px; }
+	 section p br, .header-text br{ display:none; } 
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#hero { margin-top: -150px; }
+    .header-area {
+        padding-top: 80px;
+    }
+    .price-table,
+    .box {
+        padding: 30px 15px;
+    }
+    .price-table.active {
+        padding: 50px 15px;
+    }
+    .single-team {
+        margin-bottom: 30px
+    }
+    .side-icon-boxes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+	.mainmenu-area .logo h2 { font-size: 22px; letter-spacing:0; }	
+	.mainmenu-area .logo h2 > small{ font-size:10px; }
+	.mainmenu-area #primary-menu > ul > li > a { padding: 30px 5px; }	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    .header-area {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        height: 70vh;
+    }
+    .page-title h2, section h2, .footer-area h2{
+        font-size: 24px;
+    }
+	.header-text h2 { font-size: 32px; }
+	.header-text p { font-size: 18px; }
+	.spacing{ display:none; }
+    .mainmenu-area .navbar-toggle {
+        margin-top: 20px;
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .mainmenu-area #primary-menu {
+        background-color: #138FC2;
+    }
+    .mainmenu-area #primary-menu ul {
+        overflow-y: auto;
+        max-height: 70vh;
+        margin: 0;
+    }
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 15px;
+        overflow: hidden;
+    }
+    .box {
+        padding: 30px 15px;
+		width: 80%;
+		margin: 0 auto;		
+    }
+	.box h3{ font-size:22px; }
+	.box p { font-size: 16px; }
+    .box .box-icon {
+        height: auto;
+    }
+	.caption { font-size: 20px; }
+	section p, .footer-area .page-title p { font-size: 18px; }
+	.offer{ text-align:center; }
+	#lessons .testimonials { min-height: 0; }
+	.single-blog,
+    .single-team,
+    .price-table.active {
+        margin-top: 30px;
+    }
+    .form-double input {
+        width: 100%;
+    }
+    .footer-top {
+        margin-bottom: 50px;
+    }
+    .x-left {
+        text-align: left;
+    }
+    .mainmenu-area .logo {
+        margin-left: 15px;
+    }
+	.anlge-bg { background-position: 0 120%; }
+
+}
+@media only screen and (max-width: 560px) {
+	.caption-slider h2{ font-size:26px; }
+	.caption-slider .carousel-indicators li strong {
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+	#lessons .points{ display:none; }
+	.page-title { margin-bottom: 20px; }
+}
+
+@media only screen and (max-width: 480px) {
+	.header-text h2 { font-size: 24px; }
+	.header-text p { font-size: 16px; }
+	.page-title h2, section h2, .footer-area h2 { font-size: 20px; }
+	.anlge-bg { background-position: 0 100%; }
+	.header-text .button{ font-size:18px; }
+	.section-padding { padding-top: 100px; }
+	section p, .footer-area .page-title p { font-size: 16px; }	
+	.mainmenu-area .logo h2 { font-size: 20px; letter-spacing: 1px; }
+	.mainmenu-area .logo h2 > small{ font-size:10px; }
+	.testimonial p { font-size: 14px; }
+	.testimonial h3{ font-size:22px; }
+	.testimonial .testimonial-photo > img{ max-width:80%; }
+	.caption-slider .carousel-indicators{ display:table; }
+	.caption-slider .carousel-indicators li {
+		display: table;
+		width: 100%;
+		margin-bottom: 20px;
+		padding-top: 5px;
+	}	
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

@@ -1,0 +1,496 @@
+[23-Jan-2019 01:56:16 America/Chicago] PHP Warning:  file_get_contents(./email-template-v2.html): failed to open stream: No such file or directory in /home3/aseem/public_html/rainfund.ai/schoolofquant/testmail.php on line 5
+[23-Jan-2019 01:56:24 America/Chicago] PHP Warning:  file_get_contents(./email-template-v2.html): failed to open stream: No such file or directory in /home3/aseem/public_html/rainfund.ai/schoolofquant/testmail.php on line 5
+[28-Jan-2019 23:29:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v2.php on line 11
+[28-Jan-2019 23:30:21 America/Chicago] PHP Warning:  preg_replace() expects at least 3 parameters, 2 given in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v2.php on line 10
+[04-Feb-2019 01:40:54 America/Chicago] PHP Parse error:  syntax error, unexpected '$msg' (T_VARIABLE) in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 84
+[04-Feb-2019 01:41:23 America/Chicago] PHP Warning:  require_once(../php-jwt-master/src/JWT.php): failed to open stream: No such file or directory in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 5
+[04-Feb-2019 01:41:23 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../php-jwt-master/src/JWT.php' (include_path='.:/opt/php54/lib/php') in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 5
+[04-Feb-2019 01:51:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 01:51:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 01:55:24 America/Chicago] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 15
+[04-Feb-2019 03:07:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$msg' (T_VARIABLE) in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 69
+[04-Feb-2019 14:39:25 Asia/Kolkata] PHP Fatal error:  Call to a member function query() on a non-object in /home3/aseem/public_html/rainfund.ai/schoolofquant/mail-v3.php on line 77
+[04-Feb-2019 03:39:31 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'Wrong number of segments' in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php:78
+Stack trace:
+#0 /home3/aseem/public_html/rainfund.ai/schoolofquant/email-verify.php(10): Firebase\JWT\JWT::decode('011914603069355...', '5hM2408fUC1Bdlj...', Array)
+#1 {main}
+  thrown in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 78
+[04-Feb-2019 03:40:51 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home3/aseem/public_html/rainfund.ai/schoolofquant/email-verify.php on line 12
+[04-Feb-2019 03:43:17 America/Chicago] PHP Fatal error:  Uncaught exception 'DomainException' with message 'Null result with non-null input' in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php:288
+Stack trace:
+#0 /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php(84): Firebase\JWT\JWT::jsonDecode(false)
+#1 /home3/aseem/public_html/rainfund.ai/schoolofquant/email-verify.php(11): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '5hM2408fUC1Bdlj...', Array)
+#2 {main}
+  thrown in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 288
+[04-Feb-2019 03:47:56 America/Chicago] PHP Warning:  preg_match(): Unknown modifier 'g' in /home3/aseem/public_html/rainfund.ai/schoolofquant/email-verify.php on line 9
+[04-Feb-2019 03:50:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 03:50:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 03:50:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 04:03:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[04-Feb-2019 04:04:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\SignatureInvalidException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 112
+[16-May-2019 10:47:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-May-2019 11:56:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-May-2019 05:28:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-May-2019 05:30:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-May-2019 05:53:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-May-2019 12:16:59 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-May-2019 08:31:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-May-2019 00:18:23 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Jun-2019 22:05:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Jun-2019 02:56:06 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Jun-2019 07:11:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Jun-2019 20:12:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Jun-2019 06:16:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Jun-2019 10:30:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Jun-2019 17:57:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Jun-2019 20:39:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Jun-2019 06:52:26 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Jun-2019 00:39:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Jun-2019 02:52:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Jun-2019 03:59:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Jun-2019 16:21:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jun-2019 11:09:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Jun-2019 04:02:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Jun-2019 12:54:23 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Jul-2019 07:33:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Jul-2019 01:18:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Jul-2019 09:21:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Jul-2019 00:12:34 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Jul-2019 21:48:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Jul-2019 01:14:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Jul-2019 09:52:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Jul-2019 22:18:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Jul-2019 05:52:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Jul-2019 08:16:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Jul-2019 03:09:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Jul-2019 09:37:23 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Jul-2019 10:42:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Jul-2019 23:27:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Jul-2019 02:50:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Jul-2019 04:59:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Jul-2019 08:34:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Jul-2019 08:52:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Jul-2019 23:10:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Jul-2019 02:15:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Jul-2019 07:09:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Jul-2019 09:31:36 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jul-2019 00:13:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Jul-2019 06:12:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Jul-2019 06:48:39 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Jul-2019 21:52:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Jul-2019 21:47:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Aug-2019 04:21:39 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Aug-2019 17:20:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Aug-2019 06:14:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Aug-2019 12:21:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Aug-2019 22:51:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Aug-2019 22:03:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Aug-2019 00:41:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Aug-2019 13:01:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Aug-2019 05:50:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Aug-2019 19:34:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Aug-2019 00:39:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Aug-2019 20:52:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Aug-2019 10:52:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Aug-2019 01:13:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Aug-2019 06:42:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Aug-2019 05:03:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Aug-2019 05:51:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Aug-2019 20:54:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Aug-2019 10:13:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Aug-2019 20:53:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Aug-2019 02:12:07 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Aug-2019 02:36:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Sep-2019 02:15:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Sep-2019 12:19:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Sep-2019 16:16:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Sep-2019 04:12:26 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Sep-2019 03:22:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 02:07:01 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 04:02:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 07:03:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 09:02:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 09:03:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Sep-2019 22:47:01 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Sep-2019 13:16:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Sep-2019 21:47:26 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Sep-2019 17:30:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Sep-2019 01:27:04 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Sep-2019 18:10:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Sep-2019 21:52:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Sep-2019 23:22:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Sep-2019 21:46:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Sep-2019 04:40:54 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Sep-2019 15:07:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Sep-2019 22:54:59 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Sep-2019 00:05:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Sep-2019 19:59:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Sep-2019 04:34:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Sep-2019 08:09:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Sep-2019 08:56:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Sep-2019 12:52:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Sep-2019 04:43:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Sep-2019 07:52:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Sep-2019 21:01:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Sep-2019 21:07:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Sep-2019 21:17:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 02:24:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 02:24:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 02:24:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 02:24:54 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 07:50:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 08:24:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Sep-2019 10:38:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Sep-2019 22:16:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Sep-2019 04:49:32 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Sep-2019 06:09:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Sep-2019 08:30:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Sep-2019 20:52:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Sep-2019 10:46:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Sep-2019 18:32:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Sep-2019 20:08:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Sep-2019 12:05:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Sep-2019 17:48:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Sep-2019 07:14:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Sep-2019 07:42:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Sep-2019 11:39:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Sep-2019 22:11:32 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Sep-2019 02:34:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Sep-2019 10:14:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Sep-2019 17:59:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Oct-2019 00:35:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Oct-2019 21:14:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Oct-2019 07:41:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Oct-2019 12:00:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Oct-2019 18:04:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Oct-2019 00:49:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Oct-2019 08:47:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Oct-2019 20:54:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Oct-2019 22:38:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Oct-2019 02:56:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Oct-2019 07:01:34 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Oct-2019 07:36:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Oct-2019 07:07:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Oct-2019 09:52:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Oct-2019 18:10:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Oct-2019 07:50:54 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Oct-2019 21:41:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Oct-2019 06:58:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Oct-2019 09:59:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Oct-2019 10:50:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Oct-2019 18:33:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Oct-2019 21:56:36 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Oct-2019 01:21:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Oct-2019 01:50:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Oct-2019 22:19:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Oct-2019 07:03:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Oct-2019 20:28:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Oct-2019 00:36:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Oct-2019 17:57:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Oct-2019 22:52:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Oct-2019 04:10:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Oct-2019 07:08:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Oct-2019 22:45:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Oct-2019 04:47:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Oct-2019 11:52:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Oct-2019 18:50:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Oct-2019 01:21:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Oct-2019 11:12:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Oct-2019 06:04:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Oct-2019 17:49:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Oct-2019 01:09:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Oct-2019 02:42:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Oct-2019 04:23:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Oct-2019 20:17:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Oct-2019 10:41:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Oct-2019 02:49:06 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Oct-2019 03:15:23 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Oct-2019 10:52:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Oct-2019 11:44:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Oct-2019 15:49:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Oct-2019 20:45:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Oct-2019 21:55:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Oct-2019 22:24:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Oct-2019 06:11:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Oct-2019 20:39:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Nov-2019 04:11:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Nov-2019 12:07:30 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Nov-2019 22:40:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Nov-2019 23:45:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Nov-2019 00:45:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Nov-2019 08:23:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Nov-2019 10:32:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Nov-2019 19:16:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Nov-2019 00:57:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Nov-2019 16:54:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Nov-2019 20:10:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Nov-2019 08:58:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Nov-2019 22:28:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Nov-2019 00:16:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Nov-2019 01:20:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Nov-2019 18:29:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Nov-2019 20:46:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Nov-2019 05:56:09 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[12-Nov-2019 05:56:48 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[13-Nov-2019 01:19:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Nov-2019 03:29:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Nov-2019 19:01:04 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Nov-2019 19:15:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Nov-2019 23:22:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Nov-2019 23:45:15 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[16-Nov-2019 06:07:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Nov-2019 06:13:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Nov-2019 10:12:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Nov-2019 19:07:26 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Nov-2019 22:46:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Nov-2019 21:34:39 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Nov-2019 23:35:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Nov-2019 16:35:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Nov-2019 17:13:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Nov-2019 22:54:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Nov-2019 13:13:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Nov-2019 23:56:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Nov-2019 02:27:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Nov-2019 19:54:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Nov-2019 19:12:54 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Nov-2019 04:45:32 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Nov-2019 15:02:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Dec-2019 13:15:14 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[01-Dec-2019 13:15:33 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[01-Dec-2019 13:15:45 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[01-Dec-2019 13:15:57 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[02-Dec-2019 17:26:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Dec-2019 01:41:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Dec-2019 04:17:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Dec-2019 15:52:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Dec-2019 01:10:44 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Dec-2019 17:09:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Dec-2019 21:12:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Dec-2019 17:34:07 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Dec-2019 23:52:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Dec-2019 00:48:10 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 00:48:25 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 00:48:52 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 00:49:09 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 00:49:10 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 00:49:14 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[09-Dec-2019 16:22:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Dec-2019 22:30:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Dec-2019 07:54:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Dec-2019 06:16:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Dec-2019 08:12:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Dec-2019 17:17:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Dec-2019 22:51:36 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Dec-2019 01:54:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Dec-2019 20:49:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Dec-2019 04:06:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Dec-2019 19:49:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Dec-2019 01:45:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Dec-2019 17:08:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Dec-2019 02:15:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Dec-2019 18:58:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Dec-2019 10:09:32 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Dec-2019 23:27:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Dec-2019 10:04:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Dec-2019 12:23:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Dec-2019 03:25:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Dec-2019 14:14:34 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Dec-2019 01:41:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Dec-2019 03:50:08 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Dec-2019 21:26:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Dec-2019 02:16:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Dec-2019 19:08:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Dec-2019 20:48:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Jan-2020 11:22:39 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Jan-2020 11:31:41 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[02-Jan-2020 03:19:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Jan-2020 06:01:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Jan-2020 09:24:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Jan-2020 00:39:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Jan-2020 02:00:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Jan-2020 03:26:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Jan-2020 03:46:11 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[05-Jan-2020 01:04:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Jan-2020 04:03:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Jan-2020 08:38:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Jan-2020 10:18:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Jan-2020 00:26:07 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Jan-2020 17:32:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Jan-2020 20:17:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Jan-2020 10:08:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Jan-2020 01:05:01 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Jan-2020 23:56:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Jan-2020 00:13:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Jan-2020 17:06:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Jan-2020 09:12:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Jan-2020 16:25:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Jan-2020 11:16:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Jan-2020 02:56:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Jan-2020 06:48:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Jan-2020 08:48:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Jan-2020 02:54:08 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:15 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:15 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:19 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:20 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:21 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[26-Jan-2020 02:54:26 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[27-Jan-2020 02:05:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jan-2020 02:58:53 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[27-Jan-2020 06:00:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jan-2020 06:42:36 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jan-2020 09:40:01 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Jan-2020 20:48:33 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Jan-2020 02:09:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Jan-2020 23:38:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Jan-2020 08:43:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Jan-2020 18:25:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Feb-2020 22:34:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Feb-2020 00:24:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Feb-2020 04:34:06 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Feb-2020 09:47:04 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Feb-2020 19:55:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Feb-2020 20:57:59 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Feb-2020 09:57:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Feb-2020 08:53:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Feb-2020 18:35:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Feb-2020 07:44:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Feb-2020 09:50:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Feb-2020 07:05:36 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Feb-2020 07:26:10 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[10-Feb-2020 09:20:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Feb-2020 09:34:08 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[10-Feb-2020 17:21:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-Feb-2020 07:31:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Feb-2020 05:11:07 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Feb-2020 20:11:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[13-Feb-2020 23:07:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Feb-2020 11:24:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Feb-2020 20:42:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Feb-2020 12:31:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Feb-2020 20:48:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Feb-2020 22:52:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Feb-2020 00:32:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Feb-2020 06:00:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Feb-2020 15:41:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Feb-2020 10:43:44 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Feb-2020 17:20:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 01:50:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 06:34:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 10:39:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 19:42:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 21:56:34 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Feb-2020 22:27:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Feb-2020 17:46:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Feb-2020 18:52:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Feb-2020 06:52:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Feb-2020 00:08:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Feb-2020 09:43:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Feb-2020 17:40:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Feb-2020 05:26:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Mar-2020 21:48:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Mar-2020 03:25:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Mar-2020 20:40:05 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Mar-2020 10:34:49 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[03-Mar-2020 16:54:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Mar-2020 06:32:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Mar-2020 09:25:44 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Mar-2020 10:05:30 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Mar-2020 15:20:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Mar-2020 12:34:30 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Mar-2020 04:24:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Mar-2020 18:56:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Mar-2020 11:11:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Mar-2020 17:10:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Mar-2020 22:03:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Mar-2020 23:26:11 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Mar-2020 09:09:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[16-Mar-2020 20:28:22 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Mar-2020 09:13:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Mar-2020 21:40:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Mar-2020 00:40:59 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Mar-2020 03:42:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Mar-2020 09:53:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Mar-2020 21:24:16 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Mar-2020 03:17:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Mar-2020 21:00:23 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Mar-2020 09:45:58 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Mar-2020 00:41:47 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Mar-2020 06:58:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Mar-2020 22:47:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Mar-2020 06:17:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Mar-2020 08:57:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Mar-2020 03:44:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Mar-2020 04:26:29 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[26-Mar-2020 09:00:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Mar-2020 04:30:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Mar-2020 08:07:15 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Mar-2020 09:06:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Mar-2020 09:12:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[27-Mar-2020 11:16:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Mar-2020 03:41:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Mar-2020 10:01:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Mar-2020 22:34:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Mar-2020 05:58:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Mar-2020 10:44:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Mar-2020 11:07:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Mar-2020 13:28:06 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[29-Mar-2020 21:31:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Mar-2020 06:02:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Mar-2020 22:10:51 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[30-Mar-2020 23:50:20 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[31-Mar-2020 13:03:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-Apr-2020 00:38:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Apr-2020 05:02:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Apr-2020 11:17:48 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-Apr-2020 22:59:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Apr-2020 00:46:08 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[04-Apr-2020 11:50:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Apr-2020 00:05:43 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Apr-2020 08:54:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[05-Apr-2020 23:30:09 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Apr-2020 03:15:41 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Apr-2020 06:03:14 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Apr-2020 08:07:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[06-Apr-2020 21:24:24 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Apr-2020 01:39:21 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Apr-2020 05:07:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[07-Apr-2020 05:12:46 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[07-Apr-2020 09:27:13 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Apr-2020 06:34:02 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[08-Apr-2020 10:08:27 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Apr-2020 08:22:40 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-Apr-2020 09:12:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[10-Apr-2020 23:54:35 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Apr-2020 05:43:17 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[12-Apr-2020 08:38:19 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Apr-2020 03:01:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[14-Apr-2020 11:39:50 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Apr-2020 10:34:55 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[15-Apr-2020 10:38:09 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[16-Apr-2020 20:23:52 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Apr-2020 04:49:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Apr-2020 06:27:04 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Apr-2020 22:16:00 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[17-Apr-2020 23:02:38 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[18-Apr-2020 05:18:26 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Apr-2020 00:34:56 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[19-Apr-2020 09:57:25 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Apr-2020 10:29:57 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[20-Apr-2020 19:36:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Apr-2020 08:04:42 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[21-Apr-2020 10:44:34 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Apr-2020 00:17:06 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[22-Apr-2020 09:36:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Apr-2020 01:03:18 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Apr-2020 08:03:31 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[23-Apr-2020 11:38:12 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[24-Apr-2020 11:40:37 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Apr-2020 02:07:46 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[25-Apr-2020 02:09:21 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1226): User 'aseem_rainuser' has exceeded the 'max_connections_per_hour' resource (current value: 1) in /home3/aseem/public_html/rainfund.ai/schoolofquant/connection.php on line 2
+[25-Apr-2020 08:09:53 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[28-Apr-2020 09:04:03 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[01-May-2020 10:40:10 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[02-May-2020 09:52:04 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[09-May-2020 09:32:45 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
+[11-May-2020 06:51:28 America/Chicago] PHP Fatal error:  Class 'Firebase\JWT\ExpiredException' not found in /home3/aseem/public_html/rainfund.ai/php-jwt-5.0.0/src/JWT.php on line 134
