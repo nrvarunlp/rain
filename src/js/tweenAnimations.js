@@ -43,4 +43,11 @@ $(document).ready(function () {
 	animateUnderlines("latestPodcasts");
 	animateUnderlines("podcastEpisodes");
 	animateUnderlines("subscribeNewsletter");
+
+	if ($("#podcastFilter").length) {
+		$("#podcastFilter").dropdown();
+	}
+	if ($("#podcastSortBy").length) {
+		$("#podcastSortBy").dropdown();
+	}
 });

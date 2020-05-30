@@ -2,10 +2,31 @@
 <section class="section section--100vh" id="podcastEpisodes">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-8">
         <h1 class="heebo-eb heading heading--sm line-animation-neighbour">
-          <div><span class="underline-wrapper">Latest Podcast<span class="underline underline--sm"></span></span><span class="underline-wrapper pl-sm-2">Episodes<span class="underline underline--sm"></span></span></div>
+          <div><span class="underline-wrapper">Available Episodes<span class="underline underline--sm"></span></span></div>
         </h1>
+      </div>
+      <div class="col-sm-4">
+        <ul class="filter-list d-flex align-items-center">
+          <li>
+            <div class="filter"><img class="filter__icon" src="./img/filter-icon.svg" alt=""/>
+              <select id="podcastFilter">
+                <option value="">Select Filter</option>
+                <option value="topic-wise">topic wise</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="filter"><img class="filter__icon" src="./img/sort-icon.svg" alt=""/>
+              <select id="podcastSortBy">
+                <option value="">Select sort</option>
+                <option value="topic-wise">Newest First</option>
+                <option value="topic-wise">Oldest First</option>
+              </select>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="row">
