@@ -227,7 +227,7 @@ $(document).ready(function () {
 
 	if ($("#fullpageVision").length > 0) {
 		$("#fullpageVision").fullpage({
-			anchors: ["intro!", "how!", "contact!", "footer!"],
+			anchors: ["intro!", "how!", "contact!", "subscribe!", "footer!"],
 			responsiveWidth: 1200,
 
 			afterLoad: function (anchorLink, index) {
@@ -309,78 +309,27 @@ $(document).ready(function () {
 		});
 	}
 
-	if ($("#fullpagePodcast").length > 0) {
-		$("#fullpagePodcast").fullpage({
+	if ($("#fullPageTeam").length > 0) {
+		$("#fullPageTeam").fullpage({
 			responsiveWidth: 1200,
 
 			afterLoad: function (anchorLink, index) {
-				console.log(anchorLink);
-				console.log(index);
-
 				if (index === 1) {
-					if (i === 0) {
-						var visionBannerHeading = $("#vision-banner-heading");
-						var visionBannerDetails = $("#vision-banner-details");
-						if ($(window).width() >= 992) {
-							TweenMax.to(visionBannerHeading, 2, {
-								autoAlpha: 1,
-								delay: 1.6,
-							});
-							TweenMax.from(visionBannerHeading, 1, {
-								x: -200,
-								delay: 1.6,
-							});
-							TweenMax.to(visionBannerDetails, 2, {
-								autoAlpha: 1,
-								delay: 1.2,
-							});
-							TweenMax.from(visionBannerDetails, 1, {
-								x: 200,
-								delay: 1.2,
-							});
-							setTimeout(function () {
-								$("#underline3").css("width", "100%");
-								$("#underlinePodAbout").css("width", "100%");
-								$("#underlineSubscribe").css("width", "100%");
-								$("#underlineSubscribeNews").css(
-									"width",
-									"100%"
-								);
-							}, 2000);
-						} else {
-							TweenMax.fromTo(
-								visionBannerHeading,
-								1,
-								{ x: -5, autoAlpha: 0, delay: 1 },
-								{ x: 0, autoAlpha: 1, delay: 1 }
-							);
-							TweenMax.fromTo(
-								visionBannerDetails,
-								1,
-								{ autoAlpha: 0, delay: 1 },
-								{ autoAlpha: 1, delay: 1 }
-							);
-						}
-						// $("#underline1").css("width", "100%");
-						setTimeout(function () {
-							$("#banner-line").css({
-								visibility: "visible !important",
-								transform: "translateY(-50%)",
-								opacity: "1",
-							});
-						}, 2400);
-						setTimeout(function () {
-							$("#home-banner-arrow").css({ opacity: "1" });
-						}, 3400);
-						i++;
+					$(".team-container").css("opacity", "1");
+					setTimeout(function () {
+						$("#underlineTeam").css("width", "100%");
+					}, 2000);
+				}
+				if (index === 2) {
+					$(".advisor-container").css("opacity", "1");
+					if ($(window).width() >= 992) {
+						$("#underlineAdvisors").css("width", "100%");
 					}
 				}
-
-				// }
-				if (index === 2) {
+				if (index === 3) {
+					$(".dev-container").css("opacity", "1");
 					if ($(window).width() >= 992) {
-						$("#underlineHow3").css("width", "100%");
-						$("#underlineHow4").css("width", "100%");
+						$("#underlineTechStack").css("width", "100%");
 					}
 				}
 			},
@@ -395,11 +344,3 @@ $(document).ready(function () {
 		});
 	}
 });
-// //mobile menu option
-// $('.hamburg').on('click', function () {
-// 	// alert("ok");
-//   $('.side-nav').toggleClass('active');
-//   $('.hamburg').toggleClass('close');
-//   $('body').toggleClass('overflow');
-//   $('.overlay-black').toggleClass('active');
-// });
