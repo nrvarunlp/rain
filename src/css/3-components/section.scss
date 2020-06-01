@@ -56,6 +56,18 @@
 		}
 	}
 
+	&--subscribe-success {
+		padding: 40px;
+
+		@media (min-width: $sm) {
+			padding: 80px 0;
+		}
+
+		@media (min-width: $md) {
+			padding: 120px 0;
+		}
+	}
+
 	&--blog-content {
 		padding: 40px 0;
 
